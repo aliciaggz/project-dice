@@ -8,6 +8,7 @@
   perspective: 1200px;
   position: relative;
   left: 200px;
+  top: -200px;
 }
 
 .cube {
@@ -20,11 +21,11 @@
 .face-dice {
   position: absolute;
   width: 400px;
-  height: 200px;
+  height: 400px;
 }
 
 .front {
-  background-color: #bf4e6c59;
+  background-color: #bf4e6c88;
   transform: translateZ(200px);
 }
 
@@ -49,6 +50,6 @@
 }
 
 .side-d {
-  background-color: #f2bbbb;
-  transform: rotateX(280deg) translateZ(150px);
+  background-color: #5ea9db;
+  transform: rotateX(-90deg) translateZ(200px);
 }
