@@ -12,10 +12,11 @@
 }
 
 .cube {
-  transform: translateY(400px);
+  transform: translateY(400px) rotateY(45deg);
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
+  transition: transform 2s;
 }
 
 .face-dice {
@@ -25,12 +26,12 @@
 }
 
 .front {
-  background-color: #bf4e6c88;
+  background-color: #bf4e6c;
   transform: translateZ(200px);
 }
 
 .bottom {
-  background-color: #d989c3;
+  background-color: #d689d9;
   transform: rotateY(180deg) translateZ(200px);
 }
 
