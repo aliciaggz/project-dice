@@ -1,0 +1,40 @@
+.container {
+  width: 400px;
+  height: 400px;
+  perspective: 600px;
+}
+
+.cube {
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.face-dice {
+  position: relative;
+  width: 400px;
+  height: 200px;
+}
+
+.front {
+  background-color: #bf4e6d;
+}
+
+.bottom {
+  background-color: #d989c3;
+}
+
+.side-a {
+  background-color: cadetblue;
+}
+
+.side-b {
+  background-color: #7d60a6;
+}
+
+.side-c {
+  background-color: #f2856d;
+}
+
+.side-d {
+  background-color: #f2bbbb;
+}
