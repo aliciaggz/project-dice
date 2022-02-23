@@ -9,7 +9,7 @@ function game() {
   if (randomNumber === 1) {
     cube.style.transform = 'rotateX(3600deg) rotateZ(3600deg) rotateY(3600deg)';
   } else if (randomNumber === 2) {
-    cube.style.transform = 'rotateX(800deg) rotateZ(3600deg) rotateY(3600deg)';
+    cube.style.transform = 'rotateX(808deg) rotateZ(3600deg) rotateY(3600deg)';
   } else if (randomNumber === 3) {
     cube.style.transform = 'rotateX(3600deg) rotateZ(3600deg) rotateY(2430deg)';
   } else if (randomNumber === 4) {

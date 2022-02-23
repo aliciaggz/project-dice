@@ -3,13 +3,19 @@
   background-color: rgb(27, 27, 27);
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .container {
   width: 400px;
   height: 400px;
   perspective: 1200px;
   position: relative;
-  left: 200px;
-  top: 100px;
+
+  top: 150px;
 }
 
 .cube {
@@ -29,11 +35,10 @@
   justify-content: center;
   align-items: center;
   font-size: 90px;
-  border: 4px solid #57caff;
-  border-radius: 1em;
-  box-shadow: 0 0 1px #70e2ff, 0 0 12px #70e2ff, 0 0 12px #70e2ff,
-    0 0 12px #70e2ff, inset 0 0 10px #70e2ff, inset 0 0 2px #70e2ff,
-    inset 0 0 12px #70e2ff, inset 0 0 12px #70e2ff;
+  border: 4px solid #92ddff;
+  border-radius: 0.8em;
+  box-shadow: 0 0 1px #84e6ff, 0 0 12px #77e1fc, 0 0 10px #92ebff,
+    0 0 6px #70e2ff, inset 0 0 6px #70e2ff, inset 0 0 10px #70e2ff;
 }
 
 .front {
@@ -72,9 +77,8 @@
   align-content: center;
   border-radius: 50%;
   background-color: rgba(4, 11, 12, 0.171);
-  box-shadow: 0 0 1px #70e2ff, 0 0 12px #70e2ff, 0 0 12px #70e2ff,
-    0 0 12px #70e2ff, inset 0 0 10px #70e2ff, inset 0 0 2px #70e2ff,
-    inset 0 0 12px #70e2ff, inset 0 0 12px #70e2ff;
+  box-shadow: 0 0 10px #ff58d5, 0 0 2px #ff58d5, 0 0 6px #ff58d5,
+    0 0 6px #ff58d5, inset 0 0 6px #ff58d5, inset 0 0 10px #ff58d5;
 }
 
 .front .dot {
